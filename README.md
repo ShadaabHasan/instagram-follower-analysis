@@ -19,7 +19,7 @@ A .txt file of all accounts that don't follow back.
 
 ## How to Use
 
-#### Part 1: Run the Simple Analyzer
+### Part 1: Run the Simple Analyzer
 
 Download Instagram Data:
 
@@ -48,7 +48,7 @@ python insta.py
 
 This will create a file in analysis_data/not_following_back_YYYY-MM-DD.txt.
 
-#### Part 2: Run the Exploratory Data Analysis (EDA)
+### Part 2: Run the Exploratory Data Analysis (EDA)
 
 Install Required Libraries:
 
