@@ -2,6 +2,7 @@
 
 A Python project to analyze instagram data download. 
 
+## About the project
 This project provides two tools:
 
 insta.py: A simple utility to find out who doesn't follow back and save the list to a .txt file.
@@ -10,15 +11,15 @@ EDA.ipynb: An Exploratory Data Analysis (EDA) script that uses Pandas and Matplo
 
 This project does not violate Instagram's Terms of Service. It simply parses the JSON files that Instagram provides.
 
-Features
+## Features
 Data Analysis: Uses Pandas and Matplotlib to perform Exploratory Data Analysis on relationship history.
 
 Generates 1 Output:
 A .txt file of all accounts that don't follow back.
 
-How to Use
+## How to Use
 
-Part 1: Run the Simple Analyzer
+#### Part 1: Run the Simple Analyzer
 
 Download Instagram Data:
 
@@ -47,7 +48,7 @@ python insta.py
 
 This will create a file in analysis_data/not_following_back_YYYY-MM-DD.txt.
 
-Part 2: Run the Exploratory Data Analysis (EDA)
+#### Part 2: Run the Exploratory Data Analysis (EDA)
 
 Install Required Libraries:
 
@@ -59,7 +60,7 @@ Run the EDA Script:
 python EDA.py
 
 
-A Note on "Ghost" or Deactivated Accounts
+## A Note on "Ghost" or Deactivated Accounts
 
 You will likely find that the "not following back" list is very long. This is not a bug in the script, but an issue with Instagram's data.
 
