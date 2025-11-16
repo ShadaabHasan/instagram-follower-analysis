@@ -1,11 +1,11 @@
 # Instagram Follower Analyzer & EDA
 
-A Python project to analyze instagram data download. 
+A Python project developed to analyze downloaded data from instagram. 
 
 ## About the project
 This project provides two tools:
 
-insta.py: A simple utility to find out who doesn't follow back and save the list to a .txt file.
+insta.py: A simple python script to find out who doesn't follow back and save the list to a .txt file.
 
 EDA.ipynb: An Exploratory Data Analysis (EDA) script that uses Pandas and Matplotlib to analyze the timestamps to find the earliest followers, and plot the history of follower/following relationships.
 
